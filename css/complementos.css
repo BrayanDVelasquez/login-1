@@ -1,0 +1,106 @@
+.espacio {
+    margin: 10px 0px 10px 0px;
+}
+
+label{
+    margin-left: 3px;
+}
+
+input, select, option {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0px 5px 0px; 
+
+    border: 1px rgb(199, 199, 199) solid;
+    border-radius: 5px;
+}
+
+input:hover{
+    border: 1px rgb(160, 160, 160) solid;
+}
+
+.acercar{
+    transition: transform .3s linear;
+}
+
+.acercar:hover {
+    transform: scale(1.1);
+}
+
+.bien {
+    color: green;
+}
+
+.bien_Input{
+    border: 1px green solid;
+}
+
+.error_Input{
+    border: 1px red solid;
+}
+
+.error{
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#mensaje_Nombre, #mensaje_Apellido,
+#mensaje_Correo, #mensaje_Contra,
+#mensaje_Contra2, #mensaje_Usuario,
+#mensaje_Genero {
+    display:none;
+}
+
+.animar {
+    animation-name: aparecer;
+    animation-duration: .3s;
+    animation-timing-function: linear;
+}
+
+@keyframes aparecer {
+    10%{
+        transform: scale(0.2);
+    }
+
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+
+@media screen and (min-width:1200px){
+    h3{
+        font-size: 2em;
+    }
+    input, select, option {
+        width: 100%;
+        padding: 15px;
+        margin: 3px 0px 3px 0px; 
+    
+        border: 1px rgb(199, 199, 199) solid;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width:2000px){
+    h3{
+        font-size: 2em;
+    }
+    input, select, option {
+        width: 100%;
+        padding: 20px;
+        margin: 3px 0px 3px 0px; 
+    
+        border: 1px rgb(199, 199, 199) solid;
+        border-radius: 5px;
+    }
+    label{
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Diseño de login lateral con fondo verde">
+    <meta name="author" content="Brayan DVelasquez">
+    <meta name="revised" content="03/07/2020">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/complementos.css">
+    <title>Iniciar sesion</title>
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <section class="presentacion">
+            <!-- <img src="img/fondo.jpg"> -->
+        </section>
+
+        <section class="login" id="dinamico">
+            <article class="cabeceraLogin">
+                <h3>Inicio de Sesión</h3>
+                <img src="img/user.png">
+            </article>
+
+            <article class="cuerpoLogin">
+
+                <form id="formulario">
+
+                    <div class="espacio">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario">
+                        <span id="mensaje_Usuario" class="error">Usuario Incorrecto</span>
+                    </div>
+
+                    <div class="espacio">
+                        <label for="contrasena">Contraseña</label>
+                        <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña">
+                        <div id="mensaje_Contra" class="error">Contraseña incorrecta</div>
+                    </div>
+
+                    <div class="espacio">
+                        <button>Iniciar Sesión</button>
+                    </div>
+
+                </form>
+
+                <br>
+                <p>¿No estas registrado? <a href="pages/registrar.html">Registrarme</a></p>
+            </article>
+
+            <div class="pieLogin">
+                <p>Iniciar Sesión - 2020</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Para no utilizar import de Js (necesitará un servidor), los agrego al html de esta forma -->
+    <script src="js/funciones.js"></script>
+    <script src="js/inicioSesion.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Diseño de login lateral con fondo verde">
+    <meta name="author" content="Brayan DVelasquez">
+    <meta name="revised" content="03/07/2020">
+    <link rel="stylesheet" href="../css/estilosRegistrar.css">
+    <link rel="stylesheet" href="../css/complementos.css">
+    <title>Registrarme</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <section class="presentacion">
+            <!-- <img src="../img/fondo.jpg"> -->
+        </section>
+
+        <section class="registro">
+            <article class="cabeceraRegistro">
+                <h3>Registrar Nuevo Usuario</h3>
+                <img src="../img/addUser.png" class="acercar">
+            </article>
+
+            <article class="cuerpoRegistro">
+                <form id="formulario">
+
+                    <div class="espacio">
+                        <label for="nombre">Primer Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su primer nombre">
+                        <div id="mensaje_Nombre" class="error">Ingrese su nombre, sin espacios ni numeros</div>
+                    </div>
+
+                    <div class="espacio">
+                        <label for="apellido">Primer Apellido</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+                        <div id="mensaje_Apellido" class="error">Ingrese su apellido, sin espacios ni numeros</div>
+                    </div>
+
+                    <div class="espacio">
+                        <label for="correo">Correo Electronico</label>
+                        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+                        <div id="mensaje_Correo" class="error">Escria correctamente su correo</div>
+                    </div>
+
+                    <div class="espacio">
+                        <label for="usuario">Nombre para Usuario</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Ingrese un nombre de usuario">
+                        <div id="mensaje_Usuario" class="error">Ingrese un nombre de usuario mayor a 8 caracteres y sin
+                            espacios ni caracteres especiales</div>
+                    </div>
+
+                    <div class="espacio">
+                        <label for="contrasena">Contraseña</label>
+                        <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña">
+                        <div id="mensaje_Contra" class="error">Ingrese una contraseña mayor a 7 caracteres, sin espacios
+                            y debe contener como minimo un numero, una letra mayuscula y una minuscula</div>
+                    </div>
+
+                    <div class="espacio">
+                        <label for="contrasena">Repita la contraseña</label>
+                        <input type="password" name="contrasena2" id="contrasena2"
+                            placeholder="Ingrese su contraseña nuevamente">
+                        <div id="mensaje_Contra2" class="error">No coinciden las contraseñas</div>
+                    </div>
+
+
+                    <div class="espacio">
+                        <label for="genero">Genero</label>
+                        <select name="genero" id="genero">
+                            <option value="" selected disabled>Seleccione su genero</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                        </select>
+                        <div id="mensaje_Genero" class="error">Seleccione una opción</div>
+                    </div>
+
+
+                    <div class="espacio">
+                        <button id="btnRegistrar">Registrarme</button>
+                    </div>
+
+
+                </form>
+
+                <br>
+                <p>¿Ya está registrado? <a href="../index.html">Iniciar Sesión</a></p>
+            </article>
+
+            <div class="pieRegistro">
+                <p>Registrarme - 2020</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Para no utilizar import de Js (necesitará un servidor), los agrego al html de esta forma -->
+    <script src="../js/funciones.js"></script>
+    <script src="../js/registrarme.js"></script>
+</body>
+
+</html>
