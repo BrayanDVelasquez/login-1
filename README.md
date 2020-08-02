@@ -9,15 +9,15 @@ Contraseña: 123123123
 
 ### Ir al sitio
 
-Para ingresar al sitio, debe ir a https://brayandvelasquez.github.io/login-1/
-O, [haga clic en este link](https://brayandvelasquez.github.io/login-1/)
+Para ingresar al sitio, debe ir a https://brayanduranvelasquez.github.io/login-1/
+O, [haga clic en este link](https://brayanduranvelasquez.github.io/login-1/)
 
 ### Vista Previa
 
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-1/master/img/github/screenshot1.jpg)
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-1/master/img/github/screenshot2.jpg)
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-1/master/img/github/screenshot3.jpg)
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-1/master/img/github/screenshot4.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-1/master/img/github/screenshot1.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-1/master/img/github/screenshot2.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-1/master/img/github/screenshot3.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-1/master/img/github/screenshot4.jpg)
 
 ### Tecnologías en uso
 
